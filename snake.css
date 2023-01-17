@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#board {
+    margin-top: 4rem;
+}
+
+.white {
+    color: white;
+}
+
+#gameEnd {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0; right: 0; left: 0; bottom: 0;
+    background-color: black;
+}
+
+#gameEnd p, #gameEnd input {
+    position: fixed;
+    top: 45%; left: 45%;
+    transform: translate(-45%, -45%);
+    text-align: center;
+}
+
+#gameEnd p {
+    margin-top: 2rem;
+}
